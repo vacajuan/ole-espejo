@@ -5,8 +5,9 @@ server {
 
     listen 443 ssl http2;
     listen [::]:443 ssl http2;
+    
     ssl_certificate         /etc/ssl/cert.pem;
-    ssl_certificate_key     /etc/ssl/key.pem;
+    ssl_certificate_key     /etc/ssl/private/key.pem;
 
 
 
